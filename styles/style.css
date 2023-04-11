@@ -4,18 +4,19 @@ body {
     padding: 0;
     height: 100vh;
     font-family: 'Poppins', sans-serif;
-    background-image: linear-gradient(to bottom, #051B36, #115D7F);
+    background-image: linear-gradient(to bottom, #f05053 , #f2978b );
 }
 
 main {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    margin-top: 20px;
+    margin-bottom: 100px;
     position: relative;
 }
 
 .navBar_container {
+    background: linear-gradient(45deg, #3da673, #3da67390 );   
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -23,7 +24,11 @@ main {
     height: 85px;
     margin-left: 60px;
     margin-right: 60px;
+    margin-top: 20px;
     font-family: 'Poppins', sans-serif;
+    border: 2px;
+    border-radius: 20px;
+    padding: 10px;
 }
 
 .logo-name {
@@ -65,17 +70,20 @@ main {
 }
 
 .link-navbar-active {
-    background: rgba(64, 203, 195, 0.5);
-    border-radius: 50px;
+    border: 5px;
+    border-radius: 10px;
+    background-color:  #3da673;
 }
 
 .calculadora_left_content_container {
-    background-color: #fff;
+    background-color:antiquewhite;
     width: 50%;
-    padding: 20px;
+    padding: 30px;
     box-shadow: 5px 5px 2px 1px rgba(0, 0, 0, 0.2);
     border: 1px solid #000;
-    border-radius: 10px;
+    border-radius: 15px;
+    margin-top: 100px;
+    
 }
 
 .calculadora-title {
@@ -153,12 +161,14 @@ main {
 .calculadora_right_content_container {
     display: none;
     justify-content: space-around;
-    background-color: #fff;
+    background-color:antiquewhite;
     width: 35%;
-    padding: 15px;
+    padding: 30px;
     box-shadow: 5px 5px 2px 1px rgba(0, 0, 0, 0.2);
     border: 1px solid #000;
     border-radius: 10px;
+    border-radius: 15px;
+    margin-top: 100px;
 }
 
 .icon-right-content {
